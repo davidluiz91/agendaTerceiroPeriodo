@@ -8,16 +8,22 @@
     <link href="/css/style002.css" rel="stylesheet">
 </head>
 <body>
-    <h1> Minha Agenda </h1>
-    <form>
-        <input type="text" name="nome" placeholder="digite seu Nome aqui"><br><br>
-        <input type="e-mail" name="email" placeholder="Digite seu e-mail"><br><br>
-        <input type="whatsapp" name="whatsapp" placeholder="Digite seu Whatsapp"><br><br>
-        <input type="instagram" name="instagram" placeholder="Digite seu instagram"><br><br>
-
-        <input type="submit" name="enviar" value="Enviar">    
-    </form>
-    <a href="../html/index001.html"><button style="background: #483D8B; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Voltar</button></a>
+    <section>
+    <h1>Minha Agenda</h1>
     
+    
+        Qual seu Nome: <input type="text" name="nome" id="nome" placeholder="digite seu Nome aqui"><br><br>
+        Qual seu E-mail:<input type="e-mail" name="email" placeholder="Digite seu e-mail"><br><br>
+        Qual seu WhatsApp:<input type="whatsapp" name="whatsapp" placeholder="Digite seu Whatsapp"><br><br>
+        Qual seu Instagram:<input type="instagram" name="instagram" placeholder="Digite seu instagram"><br><br>
+        <input type="button" value="cadastrar" onclick="cadastro()">    
+
+        <div id="tela">
+
+        </div>
+
+    <script src="../js/main.js"></script>
+    <a href="../html/index001.html"><button style="background: #483D8B; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Voltar</button></a>
+</section>
 </body>
 </html>

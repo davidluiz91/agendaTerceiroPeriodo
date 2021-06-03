@@ -7,33 +7,49 @@
     <title>Bem vindo</title>
     <link href="../css/style001.css" rel="stylesheet">
 </head>
-<body>
+<body onload="carregar()">
+    <header>    
+        <div id ="texto-h1">
+            <h1 style = "font-family: fantasy;">Seja bem-vindo (a)</h1>
+        </div>
+    </header>
+    <section>
+        <div id="msg">
+            Aqui vai aparecer a mensagem...
 
-    <div id ="texto-h1">
-        <h1 style = "font-family: fantasy;">Seja bem-vindo</h1>
-    </div>    
+        </div><br>
+        <div id="foto">
+            <img id="imagem1" src="../js/fotodia.jpg" alt="Foto do dia">
+            
+        </div>
+
+    </section><br>
+    
 
 
     <div id="botao-iniciar">
         <a href="../html/index002.html"><button style="background: #483D8B	; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Entrar</button></a>
     </div>
 
-    <p>by: David Luiz</p>
-
+    <footer>
+        <p align="center">&copy; David Luiz</p>
+    </footer>    
     
-    <div id="instagram">
+    <div align="center" id="instagram">
         <a href="https://www.instagram.com/dvdluiz/"> <img src="../fotos/instagramIcon.png"></a>
     </div>
     
-    <div id="github">
+    <div align="center" id="github">
         <a href="https://github.com/davidluiz91"> <img src="../fotos/githubIcon.png"></a>
     </div>
 
 
 
-    <div id="linkedin">
+    <div align="center" id="linkedin">
         <a href="https://www.linkedin.com/in/dvdluiz91/"> <img src="../fotos/linkedinIcon.png"></a>
     </div>
-</div>   
+</div>
+    
+    <script src="../js/time.js"></script>  
 </body>
 </html>
