@@ -1,18 +1,18 @@
 //HORA
 function carregar() {
-    var msg = window.document.getElementById('msg')
-    var img = window.document.getElementById('imagem1')
-    var data = new Date()
-    var hora = data.getHours()
-    //var hora = 19
-    msg.innerHTML = `Agora são ${hora} horas.`
+    var msg = window.document.querySelector('#msg')
+    var img = window.document.querySelector('#imagem1')
+    var dados = new Date()
+    var hora = dados.getHours()
+    //var hora = 1
+    msg.innerHTML = `<strong>Agora são: ${hora} horas.</strong>`
     if (hora >= 0 && hora < 12){
         //BOM DIA!
-        document.body.style.background= '#EEE8AA'
+        document.body.style.background= '#DCDCDC'
         img.src = '../js/fotodia.jpg'
     } else if (hora >= 12 && hora < 18){
         //BOA TARDE!
-        document.body.style.background= '#008B8B'
+        document.body.style.background= '#696969'
         img.src = '../js/fototarde.jpg'
     } else {
         //BOA NOITE!

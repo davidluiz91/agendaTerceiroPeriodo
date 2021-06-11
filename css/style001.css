@@ -21,21 +21,36 @@ footer {
 
 #texto-h1{
     text-align: center;
+    
 }
 
-#instagram img{
-  width: 40px;    
+#instagram img{  
+  width:70px;
+  height:70px;
+  position:absolute;
+  top:80%;
+  left:45%;
+  margin-top:-50px;
+  margin-left:-50px;
 }
 
 #github img{    
-  width: 35px;
-  margin-bottom: px;
-  margin-left: 50px;
-  
+  width:75px;
+  height:75px;
+  position:absolute;
+  top:80%;
+  left:51%;
+  margin-top:-50px;
+  margin-left:-50px;
 }
 #linkedin img{    
-  width: 33px; 
-  margin-left: 100px;
+  width:77px;
+  height:77px;
+  position:absolute;
+  top:79%;
+  left:57%;
+  margin-top:-50px;
+  margin-left:-50px;
 
 }
 
